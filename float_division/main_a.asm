@@ -23,7 +23,6 @@ extrn printf
     lea RAX, [x]
     movsd XMM0, [RAX]
     movsd XMM1, [RAX+8]
-    mov RAX, 2
     call  printf
 
     ; exiting function
