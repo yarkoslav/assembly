@@ -17,5 +17,6 @@ int main() {
   for(int i = 0 ; i < size; ++i){
     printf("%" PRIu64 "\n", to_sort[i]);
   }
+  free(to_sort);
   return 0;
 }

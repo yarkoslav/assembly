@@ -25,4 +25,4 @@ section '.text' executable
 
 section '.data' writeable
 
-zero dq 0
+zero dq 0.0f ; here we create double value equal to 0
